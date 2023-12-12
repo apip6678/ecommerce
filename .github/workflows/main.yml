@@ -2,8 +2,7 @@ name: Docker Publish
 
 on:
   push:
-    branches:
-      - main  # Replace with your main branch name
+    branches: ['master']  # Replace with your main branch name
 
 jobs:
   publish:
@@ -22,5 +21,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t apip6679/ecommerce .
+          docker build -t apip6678/ecommerce .
           docker push apip6678/ecommerce
