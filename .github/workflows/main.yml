@@ -22,5 +22,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t apip6678/ecommerce .
+          docker build -t apip6679/ecommerce .
           docker push apip6678/ecommerce
